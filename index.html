@@ -1,6 +1,6 @@
 <!--
 Name : Aniket Gade
-Date Created : Nov 5, 2019
+Date Created : Nov 5, 2018
 Most recent revision:
 -->
 
@@ -8,6 +8,40 @@ Most recent revision:
 <html lang="en">
 <head>
     <title>Aniket's Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
+    <style>
+
+        caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 8px;
+        }
+
+        table, th, td {
+            border: 1px solid #0d1f2d;
+            border-collapse: collapse;
+            padding: 5px 10px;
+        }
+
+        table {
+            width: 90%;
+            margin: auto;
+        }
+
+        tr {
+            height: 30px;
+        }
+
+        th {
+            background-color: #546a7b;
+            color: #f2eded;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #e4c3ad;
+        }
+
+    </style>
 </head>
 <body>
 
@@ -45,12 +79,14 @@ Most recent revision:
     <br/>
     <table border="1">
         <caption>Employment History</caption>
+        <thead>
         <tr>
             <th>Years of Employment</th>
             <th>Title</th>
             <th>Company</th>
         </tr>
-
+        </thead>
+        <tbody>
         <tr>
             <td>3</td>
             <td>Senior Software Localization Engineer</td>
@@ -62,7 +98,7 @@ Most recent revision:
             <td>Software Localization Engineer</td>
             <td>Cisco</td>
         </tr>
-
+        </tbody>
     </table>
 
 
